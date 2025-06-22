@@ -1,0 +1,16 @@
+[project]
+name = "deep-motion-editing"
+version = "0.1.0"
+description = "A project for deep learning based motion editing."
+requires-python = "==3.8.*"
+dependencies = [
+    "matplotlib>=3.6.3",
+    "numpy==1.19",
+    "pyyaml>=6.0.2",
+    "scipy>=1.9.3",
+    "torch==1.5.0",
+    "tqdm>=4.67.1",
+]
+
+[tool.uv]
+# You can add uv-specific configurations here if needed.v pip install -r pyproject.toml
